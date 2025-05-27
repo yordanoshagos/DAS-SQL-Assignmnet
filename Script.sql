@@ -40,7 +40,6 @@ values(1,'Laptop','Electronics',1200.00,30),
 (7,'Printer','Electronics',200.00,25);
 
 select * from company.products_table;
-alter table company.products_table  rename column catagory to category;
 
 create table company.sales_table (
 sales_id INT primary key,
