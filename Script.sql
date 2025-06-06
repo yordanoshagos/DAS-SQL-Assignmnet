@@ -30,7 +30,7 @@ CREATE TABLE company.products_table (
     stock INT NOT NULL   
 );
 
-insert into company.products_table (product_id,product_name,catagory,price,stock)
+insert into company.products_table (product_id,product_name,category,price,stock)
 values(1,'Laptop','Electronics',1200.00,30),
 (2,'Desk','Furniture',300.00,50),
 (3,'Chair','Furniture',150.00,200),
